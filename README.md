@@ -4,6 +4,7 @@ Onito Backened Coding task
   
 ->Created SQL Tables `movies` & `ratings`, and populate the CSV data(movies.csv and ratings.csv) into them.
 -> Created an HTTP server with the following routes
+     
      a) GET /api/v1/longest-duration-movies
          This route returns as JSON the top 10 movies with the longest runTime
          The output contain tconst, primaryTitle, runtimeMinutes & genres
